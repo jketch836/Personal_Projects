@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF9BE74F1AFE896D00741A1B /* HeroDataWatchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BE74E1AFE896D00741A1B /* HeroDataWatchController.swift */; };
+		FFFF9EDB1A9E7EAD003A3D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFF9EDA1A9E7EAD003A3D4C /* AppDelegate.swift */; };
+		FFFF9EDD1A9E7EAD003A3D4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFF9EDC1A9E7EAD003A3D4C /* ViewController.swift */; };
+		FFFF9EE01A9E7EAD003A3D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFFF9EDE1A9E7EAD003A3D4C /* Main.storyboard */; };
+		FFFF9EE21A9E7EAD003A3D4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFFF9EE11A9E7EAD003A3D4C /* Images.xcassets */; };
+		FFFF9EE51A9E7EAD003A3D4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFFF9EE31A9E7EAD003A3D4C /* LaunchScreen.xib */; };
+		FFFF9EF11A9E7EAD003A3D4C /* Werable_iOS_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFF9EF01A9E7EAD003A3D4C /* Werable_iOS_SwiftTests.swift */; };
+		FFFF9F051A9E86FF003A3D4C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFF9F041A9E86FF003A3D4C /* Data.swift */; };
+		FFFF9F111A9EA38A003A3D4C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFF9F101A9EA38A003A3D4C /* InterfaceController.swift */; };
+		FFFF9F131A9EA38A003A3D4C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFF9F121A9EA38A003A3D4C /* NotificationController.swift */; };
+		FFFF9F151A9EA38A003A3D4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFFF9F141A9EA38A003A3D4C /* Images.xcassets */; };
+		FFFF9F191A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FFFF9F181A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit App.app */; };
+		FFFF9F211A9EA38A003A3D4C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFFF9F1F1A9EA38A003A3D4C /* Interface.storyboard */; };
+		FFFF9F231A9EA38A003A3D4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFFF9F221A9EA38A003A3D4C /* Images.xcassets */; };
+		FFFF9F261A9EA38B003A3D4C /* Werable_iOS_Swift WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FFFF9F0B1A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFFF9EEB1A9E7EAD003A3D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFFF9ECD1A9E7EAD003A3D4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFFF9ED41A9E7EAD003A3D4C;
+			remoteInfo = Werable_iOS_Swift;
+		};
+		FFFF9F1A1A9EA38A003A3D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFFF9ECD1A9E7EAD003A3D4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFFF9F171A9EA38A003A3D4C;
+			remoteInfo = "Werable_iOS_Swift WatchKit App";
+		};
+		FFFF9F241A9EA38A003A3D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFFF9ECD1A9E7EAD003A3D4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFFF9F0A1A9EA38A003A3D4C;
+			remoteInfo = "Werable_iOS_Swift WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFFF9F2D1A9EA38B003A3D4C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FFFF9F261A9EA38B003A3D4C /* Werable_iOS_Swift WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF9BE74E1AFE896D00741A1B /* HeroDataWatchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroDataWatchController.swift; sourceTree = "<group>"; };
+		FFFF9ED51A9E7EAD003A3D4C /* Werable_iOS_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Werable_iOS_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFF9ED91A9E7EAD003A3D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFF9EDA1A9E7EAD003A3D4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFFF9EDC1A9E7EAD003A3D4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFFF9EDF1A9E7EAD003A3D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFFF9EE11A9E7EAD003A3D4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFFF9EE41A9E7EAD003A3D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FFFF9EEA1A9E7EAD003A3D4C /* Werable_iOS_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Werable_iOS_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFF9EEF1A9E7EAD003A3D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFF9EF01A9E7EAD003A3D4C /* Werable_iOS_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Werable_iOS_SwiftTests.swift; sourceTree = "<group>"; };
+		FFFF9F041A9E86FF003A3D4C /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		FFFF9F0B1A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Werable_iOS_Swift WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFF9F0E1A9EA38A003A3D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFF9F0F1A9EA38A003A3D4C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		FFFF9F101A9EA38A003A3D4C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FFFF9F121A9EA38A003A3D4C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		FFFF9F141A9EA38A003A3D4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFFF9F181A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Werable_iOS_Swift WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFF9F1E1A9EA38A003A3D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFF9F201A9EA38A003A3D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FFFF9F221A9EA38A003A3D4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFFF9ED21A9E7EAD003A3D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFF9EE71A9E7EAD003A3D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFF9F081A9EA38A003A3D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFFF9ECC1A9E7EAD003A3D4C = {
+			isa = PBXGroup;
+			children = (
+				FFFF9ED71A9E7EAD003A3D4C /* Werable_iOS_Swift */,
+				FFFF9EED1A9E7EAD003A3D4C /* Werable_iOS_SwiftTests */,
+				FFFF9F0C1A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit Extension */,
+				FFFF9F1C1A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit App */,
+				FFFF9ED61A9E7EAD003A3D4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFFF9ED61A9E7EAD003A3D4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF9ED51A9E7EAD003A3D4C /* Werable_iOS_Swift.app */,
+				FFFF9EEA1A9E7EAD003A3D4C /* Werable_iOS_SwiftTests.xctest */,
+				FFFF9F0B1A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit Extension.appex */,
+				FFFF9F181A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFFF9ED71A9E7EAD003A3D4C /* Werable_iOS_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF9EDA1A9E7EAD003A3D4C /* AppDelegate.swift */,
+				FFFF9EDC1A9E7EAD003A3D4C /* ViewController.swift */,
+				FFFF9EDE1A9E7EAD003A3D4C /* Main.storyboard */,
+				FFFF9F041A9E86FF003A3D4C /* Data.swift */,
+				FFFF9EE11A9E7EAD003A3D4C /* Images.xcassets */,
+				FFFF9EE31A9E7EAD003A3D4C /* LaunchScreen.xib */,
+				FFFF9ED81A9E7EAD003A3D4C /* Supporting Files */,
+			);
+			path = Werable_iOS_Swift;
+			sourceTree = "<group>";
+		};
+		FFFF9ED81A9E7EAD003A3D4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF9ED91A9E7EAD003A3D4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFFF9EED1A9E7EAD003A3D4C /* Werable_iOS_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF9EF01A9E7EAD003A3D4C /* Werable_iOS_SwiftTests.swift */,
+				FFFF9EEE1A9E7EAD003A3D4C /* Supporting Files */,
+			);
+			path = Werable_iOS_SwiftTests;
+			sourceTree = "<group>";
+		};
+		FFFF9EEE1A9E7EAD003A3D4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF9EEF1A9E7EAD003A3D4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFFF9F0C1A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF9F101A9EA38A003A3D4C /* InterfaceController.swift */,
+				FF9BE74E1AFE896D00741A1B /* HeroDataWatchController.swift */,
+				FFFF9F121A9EA38A003A3D4C /* NotificationController.swift */,
+				FFFF9F141A9EA38A003A3D4C /* Images.xcassets */,
+				FFFF9F0D1A9EA38A003A3D4C /* Supporting Files */,
+			);
+			path = "Werable_iOS_Swift WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FFFF9F0D1A9EA38A003A3D4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF9F0E1A9EA38A003A3D4C /* Info.plist */,
+				FFFF9F0F1A9EA38A003A3D4C /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFFF9F1C1A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF9F1F1A9EA38A003A3D4C /* Interface.storyboard */,
+				FFFF9F221A9EA38A003A3D4C /* Images.xcassets */,
+				FFFF9F1D1A9EA38A003A3D4C /* Supporting Files */,
+			);
+			path = "Werable_iOS_Swift WatchKit App";
+			sourceTree = "<group>";
+		};
+		FFFF9F1D1A9EA38A003A3D4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF9F1E1A9EA38A003A3D4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFFF9ED41A9E7EAD003A3D4C /* Werable_iOS_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFF9EF41A9E7EAD003A3D4C /* Build configuration list for PBXNativeTarget "Werable_iOS_Swift" */;
+			buildPhases = (
+				FFFF9ED11A9E7EAD003A3D4C /* Sources */,
+				FFFF9ED21A9E7EAD003A3D4C /* Frameworks */,
+				FFFF9ED31A9E7EAD003A3D4C /* Resources */,
+				FFFF9F2D1A9EA38B003A3D4C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFFF9F251A9EA38A003A3D4C /* PBXTargetDependency */,
+			);
+			name = Werable_iOS_Swift;
+			productName = Werable_iOS_Swift;
+			productReference = FFFF9ED51A9E7EAD003A3D4C /* Werable_iOS_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFFF9EE91A9E7EAD003A3D4C /* Werable_iOS_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFF9EF71A9E7EAD003A3D4C /* Build configuration list for PBXNativeTarget "Werable_iOS_SwiftTests" */;
+			buildPhases = (
+				FFFF9EE61A9E7EAD003A3D4C /* Sources */,
+				FFFF9EE71A9E7EAD003A3D4C /* Frameworks */,
+				FFFF9EE81A9E7EAD003A3D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFFF9EEC1A9E7EAD003A3D4C /* PBXTargetDependency */,
+			);
+			name = Werable_iOS_SwiftTests;
+			productName = Werable_iOS_SwiftTests;
+			productReference = FFFF9EEA1A9E7EAD003A3D4C /* Werable_iOS_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFFF9F0A1A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFF9F2A1A9EA38B003A3D4C /* Build configuration list for PBXNativeTarget "Werable_iOS_Swift WatchKit Extension" */;
+			buildPhases = (
+				FFFF9F071A9EA38A003A3D4C /* Sources */,
+				FFFF9F081A9EA38A003A3D4C /* Frameworks */,
+				FFFF9F091A9EA38A003A3D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFFF9F1B1A9EA38A003A3D4C /* PBXTargetDependency */,
+			);
+			name = "Werable_iOS_Swift WatchKit Extension";
+			productName = "Werable_iOS_Swift WatchKit Extension";
+			productReference = FFFF9F0B1A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		FFFF9F171A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFF9F271A9EA38B003A3D4C /* Build configuration list for PBXNativeTarget "Werable_iOS_Swift WatchKit App" */;
+			buildPhases = (
+				FFFF9F161A9EA38A003A3D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Werable_iOS_Swift WatchKit App";
+			productName = "Werable_iOS_Swift WatchKit App";
+			productReference = FFFF9F181A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFFF9ECD1A9E7EAD003A3D4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Full Sail";
+				TargetAttributes = {
+					FFFF9ED41A9E7EAD003A3D4C = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = B5S57NUZGY;
+					};
+					FFFF9EE91A9E7EAD003A3D4C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FFFF9ED41A9E7EAD003A3D4C;
+					};
+					FFFF9F0A1A9EA38A003A3D4C = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = B5S57NUZGY;
+					};
+					FFFF9F171A9EA38A003A3D4C = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = B5S57NUZGY;
+					};
+				};
+			};
+			buildConfigurationList = FFFF9ED01A9E7EAD003A3D4C /* Build configuration list for PBXProject "Werable_iOS_Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFFF9ECC1A9E7EAD003A3D4C;
+			productRefGroup = FFFF9ED61A9E7EAD003A3D4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFFF9ED41A9E7EAD003A3D4C /* Werable_iOS_Swift */,
+				FFFF9EE91A9E7EAD003A3D4C /* Werable_iOS_SwiftTests */,
+				FFFF9F0A1A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit Extension */,
+				FFFF9F171A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFFF9ED31A9E7EAD003A3D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFF9EE01A9E7EAD003A3D4C /* Main.storyboard in Resources */,
+				FFFF9EE51A9E7EAD003A3D4C /* LaunchScreen.xib in Resources */,
+				FFFF9EE21A9E7EAD003A3D4C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFF9EE81A9E7EAD003A3D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFF9F091A9EA38A003A3D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFF9F151A9EA38A003A3D4C /* Images.xcassets in Resources */,
+				FFFF9F191A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFF9F161A9EA38A003A3D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFF9F211A9EA38A003A3D4C /* Interface.storyboard in Resources */,
+				FFFF9F231A9EA38A003A3D4C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFFF9ED11A9E7EAD003A3D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFF9EDD1A9E7EAD003A3D4C /* ViewController.swift in Sources */,
+				FFFF9EDB1A9E7EAD003A3D4C /* AppDelegate.swift in Sources */,
+				FFFF9F051A9E86FF003A3D4C /* Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFF9EE61A9E7EAD003A3D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFF9EF11A9E7EAD003A3D4C /* Werable_iOS_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFF9F071A9EA38A003A3D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9BE74F1AFE896D00741A1B /* HeroDataWatchController.swift in Sources */,
+				FFFF9F131A9EA38A003A3D4C /* NotificationController.swift in Sources */,
+				FFFF9F111A9EA38A003A3D4C /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFFF9EEC1A9E7EAD003A3D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFFF9ED41A9E7EAD003A3D4C /* Werable_iOS_Swift */;
+			targetProxy = FFFF9EEB1A9E7EAD003A3D4C /* PBXContainerItemProxy */;
+		};
+		FFFF9F1B1A9EA38A003A3D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFFF9F171A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit App */;
+			targetProxy = FFFF9F1A1A9EA38A003A3D4C /* PBXContainerItemProxy */;
+		};
+		FFFF9F251A9EA38A003A3D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFFF9F0A1A9EA38A003A3D4C /* Werable_iOS_Swift WatchKit Extension */;
+			targetProxy = FFFF9F241A9EA38A003A3D4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFFF9EDE1A9E7EAD003A3D4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFF9EDF1A9E7EAD003A3D4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFFF9EE31A9E7EAD003A3D4C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFF9EE41A9E7EAD003A3D4C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FFFF9F1F1A9EA38A003A3D4C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFF9F201A9EA38A003A3D4C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFFF9EF21A9E7EAD003A3D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFFF9EF31A9E7EAD003A3D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFFF9EF51A9E7EAD003A3D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Werable_iOS_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Werable_iOS_Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FFFF9EF61A9E7EAD003A3D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Werable_iOS_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Werable_iOS_Swift-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FFFF9EF81A9E7EAD003A3D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Werable_iOS_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Werable_iOS_Swift.app/Werable_iOS_Swift";
+			};
+			name = Debug;
+		};
+		FFFF9EF91A9E7EAD003A3D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Werable_iOS_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Werable_iOS_Swift.app/Werable_iOS_Swift";
+			};
+			name = Release;
+		};
+		FFFF9F281A9EA38B003A3D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Werable_iOS_Swift_WatchKit_Extension;
+				INFOPLIST_FILE = "Werable_iOS_Swift WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		FFFF9F291A9EA38B003A3D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = Werable_iOS_Swift_WatchKit_Extension;
+				INFOPLIST_FILE = "Werable_iOS_Swift WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		FFFF9F2B1A9EA38B003A3D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Werable_iOS_Swift WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FFFF9F2C1A9EA38B003A3D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Werable_iOS_Swift WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFFF9ED01A9E7EAD003A3D4C /* Build configuration list for PBXProject "Werable_iOS_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFF9EF21A9E7EAD003A3D4C /* Debug */,
+				FFFF9EF31A9E7EAD003A3D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFF9EF41A9E7EAD003A3D4C /* Build configuration list for PBXNativeTarget "Werable_iOS_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFF9EF51A9E7EAD003A3D4C /* Debug */,
+				FFFF9EF61A9E7EAD003A3D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFF9EF71A9E7EAD003A3D4C /* Build configuration list for PBXNativeTarget "Werable_iOS_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFF9EF81A9E7EAD003A3D4C /* Debug */,
+				FFFF9EF91A9E7EAD003A3D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFF9F271A9EA38B003A3D4C /* Build configuration list for PBXNativeTarget "Werable_iOS_Swift WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFF9F281A9EA38B003A3D4C /* Debug */,
+				FFFF9F291A9EA38B003A3D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFF9F2A1A9EA38B003A3D4C /* Build configuration list for PBXNativeTarget "Werable_iOS_Swift WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFF9F2B1A9EA38B003A3D4C /* Debug */,
+				FFFF9F2C1A9EA38B003A3D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFFF9ECD1A9E7EAD003A3D4C /* Project object */;
+}
